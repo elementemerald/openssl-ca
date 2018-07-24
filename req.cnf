@@ -1,0 +1,21 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = v3_req
+prompt = no
+[req_distinguished_name]
+C = CA
+ST = AB
+L = Edmonton
+O = Emerald Ltd.
+OU = Web Server IT
+CN = elementemerald.tk
+[v3_req]
+keyUsage = keyEncipherment, dataEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = elementemerald.tk
+DNS.2 = www.elementemerald.tk
+
+[CA_default]
+copy_extensions = copy
