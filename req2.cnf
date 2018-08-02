@@ -5,7 +5,6 @@ prompt = no
 C = CA
 O = EmeraldSSL Ltd.
 OU = Root Certificate Authority
-CN = EmeraldSSL EV Code Signing CA
-
+CN = EmeraldSSL SHA2 Secure Server CA
 [CA_default]
 copy_extensions = copy
