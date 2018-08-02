@@ -1,0 +1,11 @@
+[req]
+distinguished_name = req_distinguished_name
+prompt = no
+[req_distinguished_name]
+C = CA
+O = EmeraldSSL Ltd.
+OU = Root Certificate Authority
+CN = EmeraldSSL EV Code Signing CA
+
+[CA_default]
+copy_extensions = copy
